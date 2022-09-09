@@ -1,0 +1,33 @@
+.lmw-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .lmw-container */
+  .lmw-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 94%;
+  }
+  .lmw-img img{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+  }
+ .cardimg1{
+  /* width: 7rem; */
+  margin: auto;
+ }
+ .cardimg2{
+  display: flex;
+  /* width: 11rem; */
+  margin: auto;
+ }
+
+
+  /* -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out; */
