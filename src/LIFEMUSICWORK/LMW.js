@@ -11,6 +11,8 @@ import Working from "../assets/workk.png";
 import Intervie from "../assets/intervie1.png";
 import Interviee from "../assets/intervie.png";
 import Propelling from "../assets/propelling.png";
+import MentoonsLogo from "../assets/mentoons_logo.png";
+import ToonlandLogo from "../assets/Logo1.png";
 const Lmw = () => {
   return (
     <>
@@ -42,10 +44,6 @@ const Lmw = () => {
         className=" container reveal "
         style={{ width: "22rem", margin: "auto" }}
       >
-        <p style={{ width: "auto", paddingLeft: "1rem" }}>
-          I have always been fascinated with people, the human psyche and
-          interpersonal dynamics & my early influences to music..
-        </p>
         <Card.Img
           variant="top"
           src={lifeimg}
@@ -60,43 +58,41 @@ const Lmw = () => {
             met over 40,000 candidates and hired hundreds of them, I learnt the
             recruitment industry in and out.
           </Card.Text>
-          <h5>to know more about me </h5>
-          <p>read my biography</p>
-          <Button variant="primary">click here</Button>
+          <div className="container reveal">
+            {" "}
+            <h5>CXO BRANDING </h5>
+            <p>
+              Having had the privilege of pitching to top CEO’s, interviewing
+              multiple “C - Level “ executives, I noticed a gap… A big gap. The
+              paucity of time. (Think of an image,read my biography
+            </p>
+            <div className="intervieImg">
+              <img src={Intervie} alt="" />
+            </div>
+            <p>
+              Hiring for top management can be tricky. Those making the hiring
+              decisions don't have ample time to go through an entire resume.
+              Those applying, i.e. the ultra-accomplished corporate executives,
+              do not know how to correctly leverage their experience and
+              achievements.
+            </p>
+            <p className="">
+              I decided to bridge that gap through my Venture CXO branding. Here
+              my team and I collectively help these interviewees ace these
+              interviews by designing and writing concise and competency based
+              Cover letters, resumes and Video introductions.( Personal Branding
+              Image ) We also help them build a personal brand on LinkedIn as an
+              additional asset that can help them get the best industry
+              opportunities.
+            </p>
+          </div>
         </Card.Body>
       </Card>
-      <Card
-        className=" container reveal "
-        style={{ width: "22rem", margin: "auto" }}
-      >
-        {/* <p style={{ width: "auto", paddingLeft: "1rem" }}>
-          I have always been fascinated with people, the human psyche and
-          interpersonal dynamics & my early influences to music..
-        </p> */}
-        <Card.Body>
-          <Card.Img variant="top" src={PlayingGuitar} className="cardimg2" />
-          {/* <Card.Title>Card Title</Card.Title> */}
-          <Card.Text>
-            I've always been someone who derives my grit and inspiration from
-            music, especially Metal music and Rock music from the 70’s, 80s and
-            90s. With my ventures right now, I am trying to pass on the same to
-            everyone between the ages of 5 to 55 through stories and
-            illustrations.
-          </Card.Text>
-          {/* <img src={PlayingGuitar} alt="" className="cardimg2" /> */}
+      <div id="music"></div>
 
-          <Card.Img
-            variant="top"
-            src={Musicimg}
-            className="cardimg1"
-            id="music"
-          />
-          <h5>to listen my favorite 90's collection of music </h5>
-          <Button variant="primary">click here</Button>
-        </Card.Body>
-      </Card>
+      <div id="work"></div>
       <Card
-        className=" container reveal" id="work"
+        className=" container reveal"
         style={{ width: "22rem", margin: "auto" }}
       >
         {/* <p style={{ width: "auto", paddingLeft: "1rem" }}>
@@ -109,17 +105,9 @@ const Lmw = () => {
           <Card.Body></Card.Body>
           {/* <Card.Title>Card Title</Card.Title> */}
           <Card.Text>
-            I began my career in sales. Leveraging my expertise in scouting
-            talent, I then shifted to the dynamic industry of Recruiting. Having
-            met over 40,000 candidates and hired hundreds of them, I learnt the
-            recruitment industry in and out.
+       
           </Card.Text>
-          <Card.Img variant="top" src={Intervie} className="cardimg2" />
 
-          {/* <img src={PlayingGuitar} alt="" className="cardimg2" /> */}
-          <h5>
-            I will help you to choose a better career field to get a perfect job
-          </h5>
           <Card.Img variant="top" src={Propelling} className="cardimg2" />
           <p>
             For the 20+ Youngsters, I conceptualised 'Propelling Stories', where
@@ -128,29 +116,52 @@ const Lmw = () => {
             impeccable power of story-telling and illustrations to capture the
             ever declining attention spans and evoke powerful emotions.
           </p>
-          <h5>
-            Come to my official{" "}
-            <a
-              href="https://www.propellingstories.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Propelling stories
-            </a>{" "}
-            website
-          </h5>
-          <p>
-            there my team and I collectively help these interviewees ace these
-            interviews by designing and writing concise and competency based
-            Cover letters, resumes and Video introductions. ( Image of Linkedin
-            growth, flower to influencer image )
-          </p>
-          <p>
-            We also help them build a personal brand on LinkedIn as an
-            additional asset that can help them get the best industry
-            opportunities.
-          </p>
 
+          <h5>
+            However, I didn't stop here. Always wanting to maximise my impact
+            through work, I began two new ventures
+          </h5>
+          <div className="img-logo container reveal">
+            <p>
+              After keenly observing modern technology and social media, I
+              noticed the extent of their detrimental effects on our well-being.
+              Seeing children and teenagers addicted to technology disheartens
+              me.
+            </p>
+            <img src={MentoonsLogo} alt="" />
+
+            <p>
+              Thus I began <span>Mentoons</span> and <span>Tonnland</span>. Psychology and cartoon based platform that
+              helps people lead healthy, tech-enabled and not tech dependent
+              lives. We also mentor young professionals seeking career guidance.
+            </p>
+            <img src={ToonlandLogo} alt="" />
+          </div>
+        </Card.Body>
+      </Card>
+      <Card
+        className=" container reveal "
+        style={{ width: "22rem", margin: "auto" }}
+      >
+        {/* <p style={{ width: "auto", paddingLeft: "1rem" }}>
+          I have always been fascinated with people, the human psyche and
+          interpersonal dynamics & my early influences to music..
+        </p> */}
+        <Card.Body>
+        <Card.Img variant="top" src={Musicimg} className="cardimg2" />
+          <Card.Img variant="top" src={PlayingGuitar} className="cardimg2" />
+          {/* <Card.Title>Card Title</Card.Title> */}
+          <Card.Text>
+            I've always been someone who derives my grit and inspiration from
+            music, especially Metal music and Rock music from the 70’s, 80s and
+            90s. With my ventures right now, I am trying to pass on the same to
+            everyone between the ages of 5 to 55 through stories and
+            illustrations.
+          </Card.Text>
+          {/* <img src={PlayingGuitar} alt="" className="cardimg2" /> */}
+
+          {/* <Card.Img variant="top" src={Musicimg} className="cardimg1" /> */}
+          <h5>To listen my favorite 90's collection of music </h5>
           <Button variant="primary">click here</Button>
         </Card.Body>
       </Card>

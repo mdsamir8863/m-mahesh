@@ -17,8 +17,6 @@
 
 .icons {
   display: flex;
-  gap: 3rem;
-  margin-right: 3rem;
   justify-content: space-around;
 }
 .icons img {

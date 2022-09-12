@@ -22,11 +22,34 @@
  }
  .cardimg2{
   display: flex;
-  /* width: 11rem; */
+  width: 12rem;
   margin: auto;
  }
-
-
+ .intervieImg{
+  display: flex;
+  margin: auto;
+ }
+.intervieImg img{
+  width: 100%;
+  margin: auto;
+}
+.img-logo{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img-logo img{
+  width: 70%;
+  display: flex;
+}
+.foo-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   /* -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
