@@ -14,27 +14,44 @@ import Propelling from "../assets/propelling.png";
 const Lmw = () => {
   return (
     <>
-      <div className="lmw-container" style={{ width: "22rem", margin: "auto" }}>
+      <div
+        className="lmw-container container reveal "
+        style={{ width: "22rem", margin: "auto" }}
+      >
         <div className="lmw-img">
           <ButtonGroup size="lg" className="mb-2">
             <Button>
-              <img src={lifeimg} alt="" />
+              <a href="#lifeimg">
+                <img src={lifeimg} alt="" />
+              </a>
             </Button>
             <Button>
-              <img src={Musicimg} alt="" />
+              <a href="#music">
+                <img src={Musicimg} alt="" />
+              </a>
             </Button>
             <Button>
-              <img src={Workimg} alt="" />
+              <a href="#work">
+                <img src={Workimg} alt="" />
+              </a>
             </Button>
           </ButtonGroup>
         </div>
       </div>
-      <Card style={{ width: "18rem", margin: "auto" }}>
+      <Card
+        className=" container reveal "
+        style={{ width: "22rem", margin: "auto" }}
+      >
         <p style={{ width: "auto", paddingLeft: "1rem" }}>
           I have always been fascinated with people, the human psyche and
           interpersonal dynamics & my early influences to music..
         </p>
-        <Card.Img variant="top" src={lifeimg} className="cardimg1" />
+        <Card.Img
+          variant="top"
+          src={lifeimg}
+          className="cardimg1 "
+          id="lifeimg"
+        />
         <Card.Body>
           {/* <Card.Title>Card Title</Card.Title> */}
           <Card.Text>
@@ -48,7 +65,10 @@ const Lmw = () => {
           <Button variant="primary">click here</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem", margin: "auto" }}>
+      <Card
+        className=" container reveal "
+        style={{ width: "22rem", margin: "auto" }}
+      >
         {/* <p style={{ width: "auto", paddingLeft: "1rem" }}>
           I have always been fascinated with people, the human psyche and
           interpersonal dynamics & my early influences to music..
@@ -65,12 +85,20 @@ const Lmw = () => {
           </Card.Text>
           {/* <img src={PlayingGuitar} alt="" className="cardimg2" /> */}
 
-          <Card.Img variant="top" src={Musicimg} className="cardimg1" />
+          <Card.Img
+            variant="top"
+            src={Musicimg}
+            className="cardimg1"
+            id="music"
+          />
           <h5>to listen my favorite 90's collection of music </h5>
           <Button variant="primary">click here</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem", margin: "auto" }}>
+      <Card
+        className=" container reveal" id="work"
+        style={{ width: "22rem", margin: "auto" }}
+      >
         {/* <p style={{ width: "auto", paddingLeft: "1rem" }}>
           I have always been fascinated with people, the human psyche and
           interpersonal dynamics & my early influences to music..

@@ -6,7 +6,7 @@ import "./Header.css";
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
-import Maneger from "../assets/Manager.png";
+import MMimg from "../assets/mentor_mahesh.png";
 
 import "./Header.css";
 const Header = () => {
@@ -14,15 +14,11 @@ const Header = () => {
     <>
       <div className="container">
         <div className="header">
-          <h1>
-            Hy! <span>I am mahesh</span>
-          </h1>
-          <h3>I manage CXO Branding, Propelling Stories and MenToons.</h3>
-          <img src={Maneger} alt="" />
-          <h4>
-            My mission is to make sure that you have all the necessary and state
-            of the art self marketing tools to help you manage your career more
-            effectively.
+         
+          <img src={MMimg} alt="" className="firstImg"/>
+          <h4  className="lmw-container container reveal " >
+            I have always been fascinated with people, the human psyche and
+            interpersonal dynamics & my early influences to music..
           </h4>
         </div>
       </div>

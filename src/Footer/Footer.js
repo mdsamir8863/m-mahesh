@@ -4,7 +4,7 @@ import Youtube from "../assets/youtube1.png";
 const Footer = () => {
   return (
     <>
-      <div className="ytb">
+      <div className="container reveal ytb" >
         <h5>subscribe my Youtube chanel</h5>
         <img src={Youtube} alt="" className="Youtube" />
       </div>

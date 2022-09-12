@@ -9,7 +9,7 @@ import "./Web.css";
 const Web = () => {
   return (
     <>
-      <Card style={{ width: "18rem", margin: "auto" }}>
+      <Card className="container reveal" style={{ width: "22rem", margin: "auto" }} >
         <Card.Img variant="top" src={Mentoons} className="cardimg1" />
         <Card.Body>
           <Card.Text>
@@ -21,7 +21,7 @@ const Web = () => {
           <Button variant="primary">Go to Website</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem", margin: "auto" }}>
+      <Card className="container reveal"  style={{ width: "22rem", margin: "auto" }}>
         <Card.Img variant="top" src={Toonland} className="cardimg1" />
         <Card.Body>
           <Card.Text>
@@ -32,7 +32,7 @@ const Web = () => {
           <Button variant="primary">Go to Website</Button>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem", margin: "auto" }}>
+      <Card className="container reveal"  style={{ width: "22rem", margin: "auto" }}>
         <Card.Img variant="top" src={CXO} className="cardimg1" />
         <Card.Body>
           <Card.Text>here We are helping to reach there goal faster.</Card.Text>
