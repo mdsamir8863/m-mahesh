@@ -6,7 +6,6 @@
   font-family: "Asap", sans-serif;
 }
 
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
@@ -14,15 +13,15 @@
   display: flex;
 }
 
-
 .icons {
   display: flex;
   justify-content: space-around;
 }
 .icons img {
-  display: flex;
+  display: inline;
+  justify-content: space-around;
+  margin-right: 4rem;
   height: 2rem;
-  gap: 3rem;
 }
 /* img:hover {
   color: rgb(180, 114, 33);
