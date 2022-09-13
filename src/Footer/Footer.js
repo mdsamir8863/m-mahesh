@@ -22,9 +22,9 @@ const Footer = () => {
           <h4 style={{ textAlign: "center" }}>Let’s Connect!</h4>
           {" "}
           <div className="icons" style={{ margin: "1.3rem 0" }}>
-            <img src={Linkedin} alt="" />
-            <img src={Fb} alt="" />
-            <img src={Instagram} alt="" />
+            <img style={{margin:"0"}} src={Linkedin} alt="" />
+            <img style={{margin:"0"}} src={Fb} alt="" />
+            <img style={{margin:"0"}} src={Instagram} alt="" />
           </div>
         </div>
         <div className="foo-img">

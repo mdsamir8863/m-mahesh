@@ -13,6 +13,8 @@ import Interviee from "../assets/intervie.png";
 import Propelling from "../assets/propelling.png";
 import MentoonsLogo from "../assets/mentoons_logo.png";
 import ToonlandLogo from "../assets/Logo1.png";
+import Cxo from "../assets/cxoImg.PNG";
+import Logo from "../assets/footerImg.png";
 const Lmw = () => {
   return (
     <>
@@ -44,12 +46,12 @@ const Lmw = () => {
         className=" container reveal "
         style={{ width: "22rem", margin: "auto" }}
       >
-        <Card.Img
+        {/* <Card.Img
           variant="top"
           src={lifeimg}
           className="cardimg1 "
           id="lifeimg"
-        />
+        /> */}
         <Card.Body>
           {/* <Card.Title>Card Title</Card.Title> */}
           <Card.Text>
@@ -60,7 +62,7 @@ const Lmw = () => {
           </Card.Text>
           <div className="container reveal">
             {" "}
-            <h5>CXO BRANDING </h5>
+            <img style={{ width: "100%" }} src={Cxo} alt="" />
             <p>
               Having had the privilege of pitching to top CEO’s, interviewing
               multiple “C - Level “ executives, I noticed a gap… A big gap. The
@@ -76,19 +78,22 @@ const Lmw = () => {
               do not know how to correctly leverage their experience and
               achievements.
             </p>
-            <p className="">
-              I decided to bridge that gap through my Venture CXO branding. Here
-              my team and I collectively help these interviewees ace these
-              interviews by designing and writing concise and competency based
-              Cover letters, resumes and Video introductions.( Personal Branding
-              Image ) We also help them build a personal brand on LinkedIn as an
-              additional asset that can help them get the best industry
-              opportunities.
-            </p>
+            <div className="container reveal">
+              {" "}
+              <img style={{ width: "100%" }} src={Logo} alt="" />
+              <p >
+                I decided to bridge that gap through my Venture CXO branding.
+                Here my team and I collectively help these interviewees ace
+                these interviews by designing and writing concise and competency
+                based Cover letters, resumes and Video introductions.( Personal
+                Branding Image ) We also help them build a personal brand on
+                LinkedIn as an additional asset that can help them get the best
+                industry opportunities.
+              </p>
+            </div>
           </div>
         </Card.Body>
       </Card>
-      <div id="music"></div>
 
       <div id="work"></div>
       <Card
@@ -99,14 +104,9 @@ const Lmw = () => {
           I have always been fascinated with people, the human psyche and
           interpersonal dynamics & my early influences to music..
         </p> */}
-        <Card.Img variant="top" src={Workimg} className="cardimg1" />
+        {/* <Card.Img variant="top" src={Workimg} className="cardimg1" /> */}
         <Card.Body>
-          <Card.Img variant="top" src={Working} className="cardimg2" />
-          <Card.Body></Card.Body>
           {/* <Card.Title>Card Title</Card.Title> */}
-          <Card.Text>
-       
-          </Card.Text>
 
           <Card.Img variant="top" src={Propelling} className="cardimg2" />
           <p>
@@ -122,6 +122,8 @@ const Lmw = () => {
             through work, I began two new ventures
           </h5>
           <div className="img-logo container reveal">
+          <Card.Img variant="top" src={Working} className="cardimg2" />
+
             <p>
               After keenly observing modern technology and social media, I
               noticed the extent of their detrimental effects on our well-being.
@@ -131,9 +133,10 @@ const Lmw = () => {
             <img src={MentoonsLogo} alt="" />
 
             <p>
-              Thus I began <span>Mentoons</span> and <span>Tonnland</span>. Psychology and cartoon based platform that
-              helps people lead healthy, tech-enabled and not tech dependent
-              lives. We also mentor young professionals seeking career guidance.
+              Thus I began <span>Mentoons</span> and <span>Tonnland</span>.
+              Psychology and cartoon based platform that helps people lead
+              healthy, tech-enabled and not tech dependent lives. We also mentor
+              young professionals seeking career guidance.
             </p>
             <img src={ToonlandLogo} alt="" />
           </div>
@@ -147,8 +150,9 @@ const Lmw = () => {
           I have always been fascinated with people, the human psyche and
           interpersonal dynamics & my early influences to music..
         </p> */}
+        <div id="music"></div>
         <Card.Body>
-        <Card.Img variant="top" src={Musicimg} className="cardimg2" />
+          <Card.Img variant="top" src={Musicimg} className="cardimg2" />
           <Card.Img variant="top" src={PlayingGuitar} className="cardimg2" />
           {/* <Card.Title>Card Title</Card.Title> */}
           <Card.Text>
