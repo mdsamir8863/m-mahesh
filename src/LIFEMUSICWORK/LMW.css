@@ -42,7 +42,7 @@
   
 }
 .img-logo img{
-  width: 70%;
+  width: 50%;
   display: flex;
 }
 .foo-img{
@@ -50,6 +50,32 @@
   justify-content: center;
   align-items: center;
 }
+
+.intervie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.intervie img{
+height: 11rem;
+}
+
+.logoImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LOGO{
+  flex: 1;
+  display: inline-block;
+  height: 50%;
+  
+}
+/* .logoImg .size{
+  width: 44%;
+} */
+
   /* -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;

@@ -10,11 +10,14 @@ import Workimg from "../assets/work.png";
 import Working from "../assets/workk.png";
 import Intervie from "../assets/intervie1.png";
 import Interviee from "../assets/intervie.png";
-import Propelling from "../assets/propelling.png";
+import Intervie2 from "../assets/intervie2.PNG";
+
+import Propelling from "../assets/PropellingStories.png";
 import MentoonsLogo from "../assets/mentoons_logo.png";
-import ToonlandLogo from "../assets/Logo1.png";
+import ToonlandLogo from "../assets/ToonlandLogo.png";
 import Cxo from "../assets/cxoImg.PNG";
 import Logo from "../assets/footerImg.png";
+import Time from "../assets/time.png";
 const Lmw = () => {
   return (
     <>
@@ -54,6 +57,8 @@ const Lmw = () => {
         /> */}
         <Card.Body>
           {/* <Card.Title>Card Title</Card.Title> */}
+          <Card.Img variant="top" src={Logo} className="cardimg2" />
+
           <Card.Text>
             I began my career in sales. Leveraging my expertise in scouting
             talent, I then shifted to the dynamic industry of Recruiting. Having
@@ -62,14 +67,15 @@ const Lmw = () => {
           </Card.Text>
           <div className="container reveal">
             {" "}
-            <img style={{ width: "100%" }} src={Cxo} alt="" />
+            {/* <img style={{ width: "100%" }} src={Cxo} alt="" /> */}
+            {/* <img style={{ width: "100%" }} src={Logo} alt="" /> */}
             <p>
               Having had the privilege of pitching to top CEO’s, interviewing
               multiple “C - Level “ executives, I noticed a gap… A big gap. The
-              paucity of time. (Think of an image,read my biography
+              paucity of time.
             </p>
             <div className="intervieImg">
-              <img src={Intervie} alt="" />
+              <img src={Intervie} alt="" className="container reveal" />
             </div>
             <p>
               Hiring for top management can be tricky. Those making the hiring
@@ -80,16 +86,24 @@ const Lmw = () => {
             </p>
             <div className="container reveal">
               {" "}
-              <img style={{ width: "100%" }} src={Logo} alt="" />
-              <p >
+              <img style={{ width: "100%" }} src={Cxo} alt="" />
+              {/* <img style={{ width: "100%" }} src={Cxo} alt="" />  */}
+              <p>
                 I decided to bridge that gap through my Venture CXO branding.
-                Here my team and I collectively help these interviewees ace
-                these interviews by designing and writing concise and competency
-                based Cover letters, resumes and Video introductions.( Personal
+                {/* ( Personal
                 Branding Image ) We also help them build a personal brand on
                 LinkedIn as an additional asset that can help them get the best
-                industry opportunities.
+                industry opportunities. */}
               </p>
+              <p>
+                Here my team and I collectively help these interviewees ace
+                these interviews by designing and writing concise and competency
+                based Cover letters, resumes and Video introductions.
+              </p>
+              <div className="intervie">
+                <img style={{ width: "100%" }} src={Interviee} alt="" />
+                <img style={{ width: "100%" }} src={Intervie2} alt="" />
+              </div>
             </div>
           </div>
         </Card.Body>
@@ -108,7 +122,12 @@ const Lmw = () => {
         <Card.Body>
           {/* <Card.Title>Card Title</Card.Title> */}
 
-          <Card.Img variant="top" src={Propelling} className="cardimg2" />
+          <Card.Img
+            variant="top"
+            src={Propelling}
+            className="cardimg2"
+            style={{ width: "100%" }}
+          />
           <p>
             For the 20+ Youngsters, I conceptualised 'Propelling Stories', where
             we help individuals to revamp their personal / digital presence
@@ -119,10 +138,15 @@ const Lmw = () => {
 
           <h5>
             However, I didn't stop here. Always wanting to maximise my impact
-            through work, I began two new ventures
+            through work,
           </h5>
           <div className="img-logo container reveal">
-          <Card.Img variant="top" src={Working} className="cardimg2" />
+            <Card.Img
+              variant="top"
+              src={Time}
+              className="cardimg2"
+              style={{ width: "100%" }}
+            />
 
             <p>
               After keenly observing modern technology and social media, I
@@ -130,7 +154,11 @@ const Lmw = () => {
               Seeing children and teenagers addicted to technology disheartens
               me.
             </p>
-            <img src={MentoonsLogo} alt="" />
+            {/* <p> I began two new ventures</p> */}
+            <div className="logoImg">
+              <img src={MentoonsLogo} alt="" className="LOGO size" />
+              <img src={ToonlandLogo} alt="" className="LOGO" />
+            </div>
 
             <p>
               Thus I began <span>Mentoons</span> and <span>Tonnland</span>.
@@ -138,7 +166,6 @@ const Lmw = () => {
               healthy, tech-enabled and not tech dependent lives. We also mentor
               young professionals seeking career guidance.
             </p>
-            <img src={ToonlandLogo} alt="" />
           </div>
         </Card.Body>
       </Card>

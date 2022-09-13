@@ -6,6 +6,8 @@ import Design from "../assets/design.png";
 import Instagram from "../assets/instagram.png";
 import Linkedin from "../assets/linkedin.png";
 import Fb from "../assets/facebook.png";
+import YoutubeLogo from "../assets/youtube_logo.png";
+import Butterfly from '../assets/butterfly.png'
 const Footer = () => {
   return (
     <>
@@ -14,23 +16,24 @@ const Footer = () => {
         <img src={Youtube} alt="" className="Youtube" />
       </div>
       <footer>
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center",fontSize:"1.3rem"}}>
           If you have a project idea in mind, please don’t hesitate to get in
           touch. I’d love to hear from you, whatever you are learning
         </p>
+        <address style={{textAlign:"center"}}> <a href="mentormahesh@gmail.com">mentormahesh@gmail.com</a> </address>
+        <h5 style={{textAlign:"center"}}>Or,</h5>
         <div className="">
-          <h4 style={{ textAlign: "center" }}>Let’s Connect!</h4>
-          {" "}
+          <h4 style={{ textAlign: "center" }}>Let’s Connect!</h4>{" "}
           <div className="icons" style={{ margin: "1.3rem 0" }}>
-            <img style={{margin:"0"}} src={Linkedin} alt="" />
-            <img style={{margin:"0"}} src={Fb} alt="" />
-            <img style={{margin:"0"}} src={Instagram} alt="" />
+            <img style={{ margin: "0" }} src={Fb} alt="" />
+            <img style={{ margin: "0" }} src={Linkedin} alt="" />
+            <img style={{margin:"0"}} src={YoutubeLogo} alt="" />
+            <img style={{ margin: "0" }} src={Instagram} alt="" />
           </div>
         </div>
         <div className="foo-img">
-          <p>Thank you for visiting my site!</p>
-          <p></p>
-          <img src={FooterImg} alt="" className="design" />
+          <p style={{fontSize:"1.7rem"}}>Thank you for visiting my site!</p>
+          <img src={Butterfly} alt="" className="design" />
         </div>
         <div className="lastFooter">
           {" "}

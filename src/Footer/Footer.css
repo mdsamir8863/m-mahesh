@@ -1,6 +1,9 @@
 footer{
   background-color: rgb(4, 0, 30);
   color: rgb(224, 215, 215);
+  box-sizing: border-box;
+  padding: 2%;
+  margin: 0;
 
 }
 .lastFooter {

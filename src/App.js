@@ -62,8 +62,8 @@ function App() {
             /> */}
               {/* <Button variant="outline-success">Search</Button> */}
               <div className="icons">
-                <img src={Linkedin} alt="" />
                 <img src={Fb} alt="" />
+                <img src={Linkedin} alt="" />
                 <img src={Instagram} alt="" />
               </div>
             </Form>
