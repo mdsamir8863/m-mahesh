@@ -59,6 +59,7 @@
 }
 .intervie img{
 height: 11rem;
+width: 100%;
 }
 
 .logoImg {
@@ -66,12 +67,27 @@ height: 11rem;
   justify-content: center;
   align-items: center;
 }
-.LOGO{
+
+.LovePeace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.LovePeace img{
+  width: 50%;
+}
+
+.container ,.reveal {
+  background-color: black;
+}
+/* .LOGO{
   flex: 1;
   display: inline-block;
   height: 50%;
   
-}
+} */
 /* .logoImg .size{
   width: 44%;
 } */

@@ -11,7 +11,8 @@ import Working from "../assets/workk.png";
 import Intervie from "../assets/intervie1.png";
 import Interviee from "../assets/intervie.png";
 import Intervie2 from "../assets/intervie2.PNG";
-
+import Loveimg from '../assets/Love.png'
+import Peaceimg from '../assets/peace.png'
 import Propelling from "../assets/PropellingStories.png";
 import MentoonsLogo from "../assets/mentoons_logo.png";
 import ToonlandLogo from "../assets/ToonlandLogo.png";
@@ -156,8 +157,7 @@ const Lmw = () => {
             </p>
             {/* <p> I began two new ventures</p> */}
             <div className="logoImg">
-              <img src={MentoonsLogo} alt="" className="LOGO size" />
-              <img src={ToonlandLogo} alt="" className="LOGO" />
+              <img src={MentoonsLogo} alt="" />
             </div>
 
             <p>
@@ -166,6 +166,7 @@ const Lmw = () => {
               healthy, tech-enabled and not tech dependent lives. We also mentor
               young professionals seeking career guidance.
             </p>
+            <img src={ToonlandLogo} alt="" />
           </div>
         </Card.Body>
       </Card>
@@ -196,6 +197,17 @@ const Lmw = () => {
           <Button variant="primary">click here</Button>
         </Card.Body>
       </Card>
+      <div className=" container reveal "
+        style={{ width: "22rem", margin: "auto" }}>
+        <h5>
+          My love for story-telling, illustrations and social impact are my why
+          underneath everything I do.
+        </h5>
+        <div className="LovePeace">
+          <img src={Loveimg} alt="" />
+          <img src={Peaceimg} alt="" />
+        </div>
+      </div>
     </>
   );
 };

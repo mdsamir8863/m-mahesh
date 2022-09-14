@@ -16,7 +16,7 @@ const Header = () => {
         <div className="header">
           <img src={MMimg} alt="" className="firstImg" />
           <h4 className="lmw-container container reveal ">
-          I have always been fascinated with people, the human psyche and interpersonal dynamics & my early influences to music..
+          I have always been fascinated with people, the human psyche and interpersonal dynamics and my early influences to music..
           </h4>
           {/* <h5 className="lmw-container container reveal ">
             I find unique ways to help you find your brand voice, establish your
